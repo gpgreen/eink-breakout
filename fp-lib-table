@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SFV24R_4STBE1HLF")(type "KiCad")(uri "${KICAD_USER_FOOTPRINTS}/eink-breakout/SFV24R_4STBE1HLF")(options "")(descr "Amphenol Flat Cable Connector"))
+  (lib (name "IFSC1515AHER100M01")(type "KiCad")(uri "${KICAD_USER_FOOTPRINTS}/eink-breakout/IFSC1515AHER100M01")(options "")(descr "Vishay Inductor"))
+)
