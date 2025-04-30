@@ -17,7 +17,7 @@ The rest of the conductors on the flat panel cable are connected as
 shown in the datasheet example wiring. There is no bus translation,
 everything is set at 3.3VDC.
 
- - [Schematic](eink-breakout-sch-v1.pdf)
+ - [Schematic](eink-breakout-sch-v1.1.pdf)
 
 ## PCB
 
