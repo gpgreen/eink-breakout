@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "d290a4cb-5c2f-42a1-be34-3c60edf9dd6d")
 	(paper "A4")
+	(title_block
+		(title "Eink-Breakout")
+		(rev "v1.1")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
@@ -2235,6 +2239,42 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 156.21 81.28)
+		(end 177.8 106.68)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid b6cbb142-80a7-4e63-9ed4-af69fd7afad8)
+	)
+	(text "Do Not Populate"
+		(exclude_from_sim no)
+		(at 166.37 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "166268f7-b9b8-463b-8568-02f9f3b3e205")
+	)
+	(text "This resistor was shown\non the datasheet example\ncircuit. It is unneeded."
+		(exclude_from_sim no)
+		(at 167.64 101.6 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "cf047b78-43d2-47ec-b72b-3ed1fbc3e559")
 	)
 	(text "EINK DISPLAY"
 		(exclude_from_sim no)

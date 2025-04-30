@@ -1,8 +1,11 @@
 # Eink-Breakout
-Kicad project for a Dalian Good Display Epaper breakout board. The
-display (GDEW042T2) has a 24pin flat panel cable. The display is
-controlled with the SPI bus, so the display SPI pins are passed to a
-JST PH connector.
+Kicad project for a [Dalian Good Display](https://www.good-display.com/) Epaper breakout board. The
+display [GDEW042T2](https://www.good-display.com/product/226.html) has
+a 24pin flat panel cable. The display is controlled with the SPI bus,
+so the display SPI pins are passed to a JST PH connector.
+
+Note: R1 is shown on the datasheet example circuit. It is not needed so should not be
+populated on the board.
 
 ## Functions
 The main function of the board is to translate the signals from the
@@ -14,16 +17,12 @@ The rest of the conductors on the flat panel cable are connected as
 shown in the datasheet example wiring. There is no bus translation,
 everything is set at 3.3VDC.
 
-## Schematic
  - [Schematic](eink-breakout-sch-v1.pdf)
 
-## Parts List
-A parts list as an LibreOffice Calc file
+## PCB
+
+ - ![PCB front](/osh-park-pcb-front.png)
  - [Parts List](eink-breakout.ods)
-
-## PCB by OshPark
-
-![Generated image of front of pcb](/osh-park-pcb-front.png)
 
 ## License
 
